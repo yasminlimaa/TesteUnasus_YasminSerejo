@@ -76,7 +76,6 @@
   background-color: #043463;
 }
 
-/* Para telas de até 1390px */
 @media (max-width: 1390px) {
   .intro-row {
     margin-top: 0;

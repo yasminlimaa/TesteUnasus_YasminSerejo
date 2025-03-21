@@ -1,6 +1,5 @@
 .bg-header {
   background-color: #043463;
-
 }
 
 .header-menu {
@@ -17,12 +16,9 @@
   padding-left: 7px;
 }
 
-
 .itens-header, .espaco-menu, .links-header, .header-menu img {
   padding-left: 50px;
 }
-
-
 
 .itens-header {
   display: flex;
@@ -30,11 +26,9 @@
   margin: 10px 0;
 }
 
-
-
 .itens-header-sub{
   display: flex;
-  gap: 10px; /* Espaço igual entre texto e número */
+  gap: 10px; 
 }
 
 .num-header {
@@ -79,8 +73,6 @@
   align-items: center;
   gap: 50px;
   margin: 0;
-  
-
 }
 
 .header-menu img {
@@ -97,22 +89,21 @@
 
 .input i {
   position: absolute;
-  right: 20px; /* Posiciona a lupa à direita */
-  top: 50%;
-  transform: translateY(-50%); /* Alinha verticalmente */
-  font-size: 16px; /* Tamanho do ícone */
-  color: #fff; /* Cor do ícone */
-  cursor: pointer; /* Torna a lupa clicável */
-  pointer-events: auto; /* Permite clique */
+  right: 20px; 
+  transform: translateY(-50%); 
+  font-size: 16px; 
+  color: #fff; 
+  cursor: pointer; 
+  pointer-events: auto; 
 }
 
 .input-search {
   width: 100%;
-  padding: 10px 35px 10px 10px; /* Espaço à direita para a lupa */
+  padding: 10px 35px 10px 10px; 
   border: 2px solid #fff;
   border-radius: 60px;
   background: none;
-  color: #fff; /* Texto branco ao digitar */
+  color: #fff; 
 }
 
 .input-search::placeholder {
@@ -125,13 +116,10 @@
   outline: none;
 }
 
-
-
 .btn-ambiente-col {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .btn-ambiente {
@@ -152,19 +140,19 @@
     padding-left: 0;
   }
   .itens-header {
-    flex-direction: column; /* Alinha os itens verticalmente */
-    width: 100%; /* Ocupa 100% da largura disponível */
+    flex-direction: column; 
+    width: 100%; 
   }
 
   .itens-header-sub {
-    width: 100%; /* Faz com que cada item ocupe toda a largura */
+    width: 100%; 
     display: inline-flex;
     justify-content: center;
   }
 
   .links-header, .itens-header {
-    width: 100%; /* Ocupa 100% da largura disponível */
-    text-align: center; /* Centraliza os links */
+    width: 100%; 
+    text-align: center;
     padding: 10px 0;
   }
 
@@ -176,7 +164,7 @@
   }
 
   .links-header li {
-    margin-bottom: 10px; /* Espaçamento entre os links */
+    margin-bottom: 10px; 
   }
 
   .header-menu, .espaco-menu{
@@ -211,6 +199,5 @@
     width: 100%;
     padding: 10px 0;
   }
-
 }
 
