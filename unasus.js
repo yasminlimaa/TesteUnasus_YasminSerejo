@@ -9,3 +9,10 @@ document.querySelectorAll('.carousel-btn').forEach((button, index) => {
   });
 });
 
+function moveCarousel(direction) {
+  if (direction === 'prev') {
+    // Lógica para mover o carrossel para o item anterior
+  } else if (direction === 'next') {
+    // Lógica para mover o carrossel para o próximo item
+  }
+}
