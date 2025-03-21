@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unasus</title>
+  <meta name="description" content="Curso de Formação para Gerentes de Serviços de Especialidades em Saúde Bucal">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+  <header class="container-fluid bg-header" >
+    <section class="row espaco-itens">
+      <div class="col-7 itens-header">
+        <div class="col-2 itens-header-sub">
+          <p>Ir para o conteúdo</p>
+          <div class="num-header">1</div>
+        </div>
+        <div class="col-2 itens-header-sub espaco-itens"  >
+          <p>Ir para o menu</p>
+          <div class="num-header">2</div>
+        </div>
+        <div class="col-2 itens-header-sub">
+          <p>Ir para a busca</p>
+          <div class="num-header">3</div>
+        </div>
+        <div class="col-2 itens-header-sub">
+          <p>Ir para o rodapé</p>
+          <div class="num-header">4</div>
+        </div>
+      </div>
+      <div class="col-5 links-header">
+        <ul>
+          <li>Mapa do site</li>
+          <li id="alto-contraste" >Alto contraste</li>
+          <li>Acessibilidade</li>
+        </ul>
+      </div>
+    </section>
+    
+    <nav class="row ">
+      <div class="col-3 header-menu">
+        <img class="" src="./img/logo.svg" alt="Logo saiteava e unasus ufma">
+      </div>  
+
+      <div class="col-9 d-flex justify-content-end espaco-menu">
+        <div class="col-12 col-md-4 input">
+          <input type="text" class="input-search" placeholder="Pesquisar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="col-12 col-md-5 header-col-opcoes">
+          <ul class="header-menu-opcoes">
+            <li><a href="#">Início</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#programas">Programas de formação</a></li>
+            <li><a href="#tutoriais">Tutoriais</a></li>
+          </ul>
+        </div>
+        <div class="col-2 btn-ambiente-col ">
+          <button class="btn-ambiente">Acessar ambiente</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="introducao">
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row intro-row">
+              <div class="col-6 intro-coluna">
+                <h1>Conheça o novo curso de Formação para Gerentes de Serviços de Especialidades em Saúde Bucal</h1>
+                <p>A formação tem como objetivo que os gerentes dos CEOs consigam aplicar conceitos, princípios e métodos da construção social das políticas de saúde no Brasil e para entender sua interface com a estruturação da Política Nacional de Saúde Bucal.</p>
+                <button type="button" class="btn saiba-mais">Saiba Mais</button>
+              </div>
+              <div class="col-6 img-mac-intro">
+                <img src="./img/mac-iphone.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row intro-row">
+              <div class="col-6 intro-coluna">
+                <h1>Conheça o novo curso de Formação<br> para Gerentes de Serviços de<br> Especialidades em Saúde Bucal</h1>
+                <p>A formação tem como objetivo que os gerentes dos CEOs consigam<br> aplicar conceitos, princípios e métodos da construção social das políticas<br> de saúde no Brasil e para entender sua interface com a estruturação da<br> Política Nacional de Saúde Bucal.</p>
+                <button type="button" class="btn saiba-mais">Saiba Mais</button>
+              </div>
+              <div class="col-6">
+                <img src="./img/mac-iphone.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row intro-row">
+              <div class="col-6 intro-coluna">
+                <h1>Conheça o novo curso de Formação<br> para Gerentes de Serviços de<br> Especialidades em Saúde Bucal</h1>
+                <p>A formação tem como objetivo que os gerentes dos CEOs consigam<br> aplicar conceitos, princípios e métodos da construção social das políticas<br> de saúde no Brasil e para entender sua interface com a estruturação da<br> Política Nacional de Saúde Bucal.</p>
+                <button type="button" class="btn saiba-mais">Saiba Mais</button>
+              </div>
+              <div class="col-6">
+                <img src="./img/mac-iphone.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Controles do carrossel 
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <i class="fa-solid fa-angle-left"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <i class="fa-solid fa-angle-right"></i>
+          <span class="visually-hidden">Next</span>
+        </button>-->
+      </div>
+        
+    </div>
+  </section>
+  
+  
+ 
+
+  <section class="container cursos">
+    <div class="row">
+        <h1 class="titulo-curso-programa">Cursos</h1>
+    </div>
+    <div class="row ">
+      <div class="col-12 col-md-4 mb-4 col-xl-4 ">
+          <div class="card card-cursos">
+              <img src="./img/formacao-saude-bocal.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">CURSO</p>
+                <h5 class="card-title">Formação para Gerentes de Serviços de Especialidades em Saúde Bucal</h5>
+                <div class="row espaco-cursos">
+                  <ul class="col-6 espaco-resp-lista">
+                      <li class="d-flex flex-row adicionar-espaco">
+                          <img src="./img/modulo.svg" alt="">
+                          <p>6 módulos</p>
+                      </li>
+                      <li class="d-flex flex-row adicionar-espaco">
+                          <img src="./img/recursos.svg" alt="">
+                          <p>48 recursos</p>
+                      </li>
+                      <li class="d-flex flex-row">
+                          <img src="./img/tempo.svg" alt="">
+                          <p>240 horas</p>
+                      </li>
+                  </ul>
+                  <span class="col-6 btn-responsivo">
+                      <button type="button" class="btn">Saiba Mais</button>
+                  </span>
+                </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card card-cursos">
+          <img src="./img/reabilitacao-poliomelite.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">CURSO</p>
+            <h5 class="card-title">Atenção à reabilitação da pessoa com síndrome pós-poliomielite e comorbidades</h5>
+            <div class="row espaco-cursos">
+                <ul class="col-6 ">
+                  <li class="d-flex flex-row adicionar-espaco">
+                      <img src="./img/modulo.svg" alt="">
+                      <p>3 módulos</p>
+                  </li>
+                  <li class="d-flex flex-row adicionar-espaco">
+                      <img src="./img/recursos.svg" alt="">
+                      <p>16 recursos</p>
+                  </li>
+                  <li class="d-flex flex-row">
+                      <img src="./img/tempo.svg" alt="">
+                      <p>30 horas</p>
+                  </li>
+                </ul>
+                <span class="col-6 btn-responsivo ">
+                  <button type="button" class="btn">Saiba Mais</button>
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-12 col-md-4 mb-4">
+          <div class="card card-cursos">
+              <img src="./img/reabilitacao-poliomelite-comorbidades.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <p class="card-text">CURSO</p>
+                  <h5 class="card-title">Atenção à reabilitação da pessoa com síndrome pós-poliomielite e comorbidades</h5>
+                  <div class="row espaco-cursos">
+                      <ul class="col-6 espaco-resp-lista">
+                          <li class="d-flex flex-row adicionar-espaco">
+                              <img src="./img/modulo.svg" alt="">
+                              <p>4 módulos</p>
+                          </li>
+                          <li class="d-flex flex-row adicionar-espaco">
+                              <img src="./img/recursos.svg" alt="">
+                              <p>16 recursos</p>
+                          </li>
+                          <li class="d-flex flex-row">
+                              <img src="./img/tempo.svg" alt="">
+                              <p>30 horas</p>
+                          </li>
+                      </ul>
+                      <span class="col-6 btn-responsivo">
+                          <button type="button" class="btn ">Saiba Mais</button>
+                      </span>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <span class="col-12 d-flex justify-content-center">
+        <button type="button" class="btn ver-cursos">Ver todos os cursos abertos</button>
+    </span>
+</section>
+  
+  <section class="bg-formacao">
+      <div class="container">
+        <div class="row">
+          <h1 class="titulo-curso-programa">Programas de formação</h1>
+        </div>
+
+        <div class="row ">
+          <div class="col-6 ">
+            <div class="card card-formacao ">
+              <img src="./img/capacitacao.png" alt="" class="img-formacao">
+              <div class="content-formacao">
+                <p class="card-title">PROGRAMA DE FORMAÇÃO</p>
+                <h5 class="card-text ">Programa de capacitação em atenção à pessoa com deficiência III</h5>
+                <div class="row espaco-formacao mt-auto">
+                  <ul class="col-6">
+                    <li class="d-flex flex-row adicionar-espaco">
+                      <img src="./img/modulo.svg" alt="">
+                      <p>7 cursos</p>
+                    </li>
+                    <li class="d-flex flex-row">
+                      <img src="./img/livro.svg" alt="">
+                      <p>210 horas</p>
+                    </li>
+                  </ul>
+                  <span class="col-6 btn-responsivo">
+                    <button type="button" class="btn ">Saiba Mais</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Segundo card de forma similar -->
+          <div class="col-6">
+            <div class="card card-formacao">
+              <img src="./img/saude-digital.png" alt="" class="img-formacao">
+              <div class="content-formacao">
+                <p class="card-text">PROGRAMA DE FORMAÇÃO</p>
+                <h5 class="card-title">Formação básica em saúde digital</h5>
+                <div class="row espaco-formacao mt-auto">
+                  <ul class="col-6 ">
+                    <li class="d-flex flex-row adicionar-espaco ">
+                      <img src="./img/modulo.svg" alt="">
+                      <p >3 cursos</p>
+                    </li>
+                    <li class="d-flex flex-row ">
+                      <img src="./img/livro.svg" alt="">
+                      <p>90 horas</p>
+                    </li>
+                  </ul>
+                  <span class="col-6 btn-responsivo">
+                    <button type="button" class="btn ">Saiba Mais</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="col-12 d-flex justify-content-center">
+          <button type="button" class="btn ver-cursos">Ver todos os cursos abertos</button>
+        </span>
+      </div>
+  </section>
+  
+  <section class="container destaque">
+    <div class="row ">
+      <div class="col-4 destaque">
+        <img src="./img/inovacao.svg" alt="">
+        <h2>Inovação</h2>
+        <p>Construa conexões por meio de um ambiente<br> inovador, acessível em Libras e disponível em <br>todas as plataformas digitais.</p>
+      </div>
+      <div class="col-4 destaque">
+        <img src="./img/autonomia.svg" alt="">
+        <h2>Autonomia </h2>
+        <p>Escolha onde e quando estudar.<br>Com o SAITE AVA você tem autonomia<br>
+        para buscar conhecimento.</p>
+      </div>
+      <div class="col-4 destaque">
+        <img src="./img/interatividade.svg" 
+        alt="">
+        <h2>Interatividade </h2>
+        <p>Aprenda por meio de diversos recursos, que vão além dos e-books interativos. Tenha<br> acesso a vídeos, infográficos, games, <br>audiobooks, podcasts e muito mais!</p>
+      </div>
+    </div>
+  </section>
+    
+  <section class="container-fluid p-0 img-apoiadores">
+    <img src="./img/apoiadores.png" class="w-100" alt="">
+  </section>
+
+  <footer class="bg-footer ">
+    <div class="container-fluid ">
+      <div class="row texto-footer">
+        <div class="col-12 logo-footer">
+          <img src="./img/logo.svg" alt="">
+        </div>
+        <div class="col-12 texto-footer-saite">
+          <p>Orgulhosamente desenvolvido pelo Grupo SAITE</p>
+        </div>
+        <div class="col-12 d-flex flex-row texto-footer-termos">
+          <p>Termos de Uso</p>
+          <span class="bolinha"></span>
+          <p>Política de Privacidade</p>
+        </div>
+      </div>
+      
+    </div>
+  </footer>
+      
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="./unasus.js"> </script>
+  
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  
+  
+</body>
+</html>

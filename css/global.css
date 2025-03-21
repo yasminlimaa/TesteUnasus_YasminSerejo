@@ -1,0 +1,68 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif; /* Aplica a fonte a todo o corpo */
+  color: #0A0A0A; /* Cor do texto global */
+}
+
+/*.row, .col, .col-2 ,.col-3, .col-4, .col-5,.col-6, .col-7,.col-9, .col-12, .container, .container-fluid {
+  border-width: 3px;
+  border-style: solid;
+}
+
+.row {
+  border-color: green;
+}
+
+.col-6, .col-4, .col-12, .col,.col-3, .col-9,.col-5, .col-2, .col-7 {
+  border-color: yellow;
+}
+
+.container, .container-fluid {
+  border-color: red;
+} 
+
+/* Parágrafos */
+
+header p, ul li a {
+  color: #fff;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+/* Botões */
+.btn {
+  border-radius: 60px;
+  background-color: #0D7CCE;
+  color: #fff;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0;
+  
+}
+
+.btn:hover {
+  background-color: #0564a8;
+  color: #fff;
+}
+
+.titulo-curso-programa {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #043463;
+  margin-top: 50px;
+}

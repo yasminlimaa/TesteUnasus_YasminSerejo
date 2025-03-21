@@ -1,0 +1,11 @@
+@import './global.css';
+@import './header.css';
+@import './introducao.css';
+@import './cursos.css';
+@import './formacao.css';
+@import './destaque.css';
+@import './apoiadores.css';
+@import './footer.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
