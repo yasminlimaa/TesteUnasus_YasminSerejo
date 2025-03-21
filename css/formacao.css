@@ -1,7 +1,7 @@
 .bg-formacao {
   background-color: #E9EEF5;
+  padding-bottom: 8px;
 }
-
 .card-formacao {
   height: 250px;
   display: flex;
@@ -31,9 +31,7 @@
   margin-bottom: 0;
 }
 
-.adicionar-espaco {
-  padding-bottom: 10px;
-}
+
 
 @media (max-width: 1390px) and (min-width: 768px) {
   .espaco-formacao {
@@ -46,13 +44,6 @@
   .espaco-formacao ul {
     width: auto; /* Permite que a lista ocupe apenas o espaço necessário */
     flex: 1; /* Garante que a lista cresça conforme necessário */
-  }
-
-  .btn-responsivo {
-    display: flex;
-    justify-content: flex-end; /* Move o botão para a direita */
-    align-items: center; /* Mantém o alinhamento com a lista */
-    flex: 0 0 auto; /* Impede que o botão quebre a linha */
   }
 }
 
@@ -86,16 +77,8 @@
 
   }
 
-  .btn-responsivo {
-    display: flex;
-    justify-self: start;
-    align-self: flex-start;
-    padding-left: 0;
-  }
-  
-  .btn-responsivo button {
-    align-self: flex-start; /* Faz o botão alinhar ao texto no topo */
-    margin-top: 10px; 
+  .card-formacao button {
+    margin: 8px 0;
   }
 
   .espaco-formacao ul {

@@ -3,10 +3,10 @@
 }
 
 .bolinha {
-  width: 4px;            /* Define a largura */
-  height: 4px;           /* Define a altura */
-  background-color: #fff; /* Cor branca */
-  border-radius: 50%;     /* Torna o elemento redondo */
+  width: 4px;            
+  height: 4px;          
+  background-color: #fff; 
+  border-radius: 50%;    
   margin: 10px 20px ;
 }
 
@@ -17,14 +17,20 @@
   align-items: center;
   padding: 20px;
 }
+
 .texto-footer-saite {
   font-size: 16px;
 }
 
 .texto-footer-termos {
-  font-size: 14px;
+  display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.texto-footer-termos a {
+  text-decoration: none;
 }
 
 .logo-footer {
@@ -40,9 +46,5 @@
   .logo-footer img {
     width: 20rem;
     margin-bottom: 30px;
-  }
-
-  .texto-footer-termos {
-    margin-bottom: 20px;
   }
 }

@@ -19,37 +19,7 @@
   height: 100%; /* Define altura total para que o alinhamento funcione */
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
 
-ul li {
-  display: flex;
-  align-items: center;
-}
-
-ul li p {
-  margin-left: 10px;
-  margin-bottom: 0;
-}
-
-ul.col-6 {
-  display: flex;
-  flex-direction: column;
-}
-
-span.col-6 {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.ver-cursos {
-  margin: 50px 0;
-}
 
 /* Ajustes responsivos */
 @media (max-width: 1390px) {
@@ -82,16 +52,7 @@ span.col-6 {
     margin-bottom: 40px;
   }
 
-  .btn-responsivo {
-    display: flex;
-    justify-self: start;
-    align-self: flex-start;
-    padding-left: 0;
-  }
-  
-  /* Ajustando o botão para alinhá-lo ao texto */
-  .btn-responsivo button {
-    align-self: flex-start; /* Faz o botão alinhar ao texto no topo */
-    margin-top: 10px; 
+  .card-cursos button {
+    margin: 8px 0;
   }
 }

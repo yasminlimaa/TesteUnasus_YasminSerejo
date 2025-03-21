@@ -14,7 +14,7 @@
   height: 100%; /* Garante que a linha ocupe a altura total disponível */
 }
 
-.introducao h1 {
+.introducao h1, .introducao h2 {
   color: #043463;
   font-weight: 600;
   font-size: 34px;

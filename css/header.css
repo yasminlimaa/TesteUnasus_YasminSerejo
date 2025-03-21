@@ -186,6 +186,7 @@
   .header-menu, .espaco-menu{
     display: flex;
     flex-direction: column;
+    justify-content: end;
   }
 
   .header-menu {
@@ -199,13 +200,6 @@
   .input {
     width: 60%;
     margin: 10px 0;
-  }
-
-  .espaco-menu {
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    text-align: center;
   }
 
   .header-col-opcoes {

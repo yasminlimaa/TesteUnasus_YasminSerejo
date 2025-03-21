@@ -8,3 +8,4 @@ document.querySelectorAll('.carousel-btn').forEach((button, index) => {
     button.classList.add('active');
   });
 });
+

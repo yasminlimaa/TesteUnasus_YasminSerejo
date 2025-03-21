@@ -1,27 +1,22 @@
-.destaque {
-  justify-items: center;
-  margin-top: 65px ;
-  margin-bottom: 65px ;
+.destaque-container {
+  display: flex;
+  justify-self: center;
+  margin: 70px 0;
   text-align: center;
 }
 
-.destaque h2 {
+.destaque-container h3 {
   margin: 20px 0;
   font-size: 20px;
   font-weight: 600;
 }
 
 @media (max-width: 768px) {
-  .row.destaque {
+  .destaque-card {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza os itens */
-  }
-
-  .col-4.destaque {
-    width: 100%; /* Faz cada destaque ocupar a linha toda */
-    max-width: 100%;
-    flex: 1 1 100%;
-    margin-bottom: 20px; /* Adiciona espaçamento entre os itens */
+    align-items: center; 
+    width: 100%; 
+    margin-bottom: 50px; 
   }
 }
