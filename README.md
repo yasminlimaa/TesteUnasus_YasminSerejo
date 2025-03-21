@@ -8,15 +8,6 @@ A página desenvolvida atende aos seguintes requisitos:
 - Foi construída utilizando apenas **HTML**, **CSS** e **JavaScript** puros, com o uso do **Bootstrap** para facilitar o desenvolvimento responsivo e a criação de um layout moderno.
 - Ela adapta a diferentes tamanhos de tela e dispositivos, proporcionando uma boa experiência de usuário em desktop, tablet e mobile.
 - O layout e a navegação foram pensados para garantir uma interface limpa e intuitiva.
-  
-## Funcionalidades
-
 - A página é totalmente responsiva, garantindo uma boa visualização em dispositivos móveis, tablets e desktops.
-- A interface segue fielmente o design fornecido no Figma, com atenção aos detalhes de layout e usabilidade.
   
-## Tecnologias Usadas
 
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **Bootstrap**
