@@ -9,9 +9,9 @@
 .intro-row {
   display: flex;
   align-items: center;
-  justify-content: center; /* Centraliza horizontalmente */
+  justify-content: center; 
   margin-top: 120px;
-  height: 100%; /* Garante que a linha ocupe a altura total disponível */
+  height: 100%; 
 }
 
 .introducao h1, .introducao h2 {
@@ -28,7 +28,6 @@
 .saiba-mais {
   display: flex;
   justify-self: start;
-
 }
 
 .carousel-indicators [data-bs-target] {
@@ -46,8 +45,8 @@
   background-color: #043463;
 }
 
-
-/*.carousel-control-prev, .carousel-control-next {
+/*
+.carousel-control-prev, .carousel-control-next {
   width: 86px;
   height: 86px;
   background-color: #FFFFFF;
@@ -55,7 +54,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-size: 16px;
   border: none;
 }
@@ -68,25 +66,34 @@
 
 .carousel-control-prev:hover, .carousel-control-next:hover {
   background-color: #f0f0f0;
-}*/
+}
+*/
+
 
 @media (max-width: 1390px) {
   .intro-row {
     margin-top: 0;
   }
 
+  .intro-coluna {
+    padding: 10px 50px;
+    text-align: center;
+  }
+
+  .intro-coluna button {
+    display: flex;
+    justify-self: center;
+  }
+
   .img-mac-intro {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100%; /* Certifique-se de que a altura da coluna seja 100% */
-    
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
   }
 
   .img-mac-intro img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse os limites */
-    height: auto; /* Mantém a proporção da imagem */
-
+    max-width: 100%; 
+    height: auto; 
   }
-
 }

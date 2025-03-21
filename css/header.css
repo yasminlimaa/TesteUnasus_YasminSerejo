@@ -135,14 +135,10 @@
 }
 
 .btn-ambiente {
-  border-radius: 60px;
   background-color: #fff;
   color: #043463;
   padding: 15px 30px;
-  font-weight: 600;
-  font-size: 16px;
   line-height: 100%;
-  margin: 0;
   border: none;
 }
 
